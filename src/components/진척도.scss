@@ -1,0 +1,10 @@
+.ProgressBar {
+    width: var(--bar-size, 0%);
+    height: 20px;
+    background-color: #00ff00; // 초록색 배경색
+    transition: width 0.5s;
+    z-index: 1;
+    bottom:0px;
+    position: absolute;
+  }
+  
